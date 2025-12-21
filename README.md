@@ -31,7 +31,5 @@ This project analyzes employee attendance and productivity using an uploaded Exc
 
 Missing in-time/out-time is treated as a leave.
 
-## About Me
-Name: <Your Name>  
-Email: <Your Email>  
-Role: AI-ML Development Intern
+
+
