@@ -37,4 +37,12 @@ cd backend
 pip install -r requirements.txt
 uvicorn app:app --reload
 
+## Live Demo
+ https://relaxed-gumption-83969b.netlify.app
+
+## Note
+Backend (FastAPI) runs locally.
+Frontend is deployed on Netlify for demo purposes.
+
+
 
