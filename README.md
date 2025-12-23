@@ -15,11 +15,11 @@ A web-based application to analyze employee attendance and productivity using Ex
 
 
 ##  File Upload Screen
-![Upload Screen](frontend/assets/screenshots/upload.png)
+![Upload Screen](frontend/assets/upload.png)
 
 
 ##  Output Screen
-![Output Screen](frontend/assets/screenshots/output.png)
+![Output Screen](frontend/assets/output.png)
 
 
 ## Tech Stack
@@ -36,3 +36,4 @@ A web-based application to analyze employee attendance and productivity using Ex
 cd backend
 pip install -r requirements.txt
 uvicorn app:app --reload
+
