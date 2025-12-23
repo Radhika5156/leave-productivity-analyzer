@@ -1,35 +1,38 @@
 Frontend: Simple HTML/CSS/JS interface for file upload and result display  
 Backend: FastAPI + Pandas for attendance analysis and productivity calculation
-# Leave & Productivity Analyzer
 
-This project analyzes employee attendance and productivity using an uploaded Excel sheet.
+# 📊 Leave & Productivity Analyzer
 
-## Features
-- Upload Excel (.xlsx) attendance data
-- Calculates total expected work hours
-- Calculates total actual hours worked
-- Counts leaves used
-- Computes productivity percentage
+A web-based application to analyze employee attendance and productivity using Excel files.
 
-## Technology Stack
-- FastAPI (Python)
+
+##  Features
+- Upload Excel attendance file
+- Monthly productivity summary
+- Productivity grade (A / B / C)
+- Clean & attractive UI
+- Excel-based analysis
+
+
+##  File Upload Screen
+![Upload Screen](frontend/assets/screenshots/upload.png)
+
+
+##  Output Screen
+![Output Screen](frontend/assets/screenshots/output.png)
+
+
+## Tech Stack
+- Python (FastAPI)
 - Pandas
-- HTML, CSS, JavaScript
+- HTML, CSS
+- JavaScript
 
-## How to Run
-1. Install dependencies: `pip install fastapi uvicorn pandas openpyxl python-multipart`
-2. Run backend: `uvicorn app:app`
-3. Open `index.html` in browser
-4. Upload sample Excel and view results
+---
 
-## Sample Excel Format
-| Date | In-Time | Out-Time |
-|------|---------|----------|
-| 2025-01-01 | 10:00 | 18:30 |
-| 2025-01-02 | 10:15 | 18:45 |
-| 2025-01-03 |       |        |
+##  How to Run
 
-Missing in-time/out-time is treated as a leave.
-
-
-
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app:app --reload
