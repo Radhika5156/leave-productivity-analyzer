@@ -48,6 +48,7 @@ cd backend
 pip install -r requirements.txt
 uvicorn app:app --reload
 
+----
 ###Frontend
 
 Open index.html in a browser
@@ -71,3 +72,4 @@ Frontend communicates with backend via HTTP requests
 
 Radhika Vyas
 ---
+
