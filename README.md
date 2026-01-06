@@ -1,48 +1,73 @@
-Frontend: Simple HTML/CSS/JS interface for file upload and result display  
-Backend: FastAPI + Pandas for attendance analysis and productivity calculation
-
 # 📊 Leave & Productivity Analyzer
 
-A web-based application to analyze employee attendance and productivity using Excel files.
-
-
-##  Features
-- Upload Excel attendance file
-- Monthly productivity summary
-- Productivity grade (A / B / C)
-- Clean & attractive UI
-- Excel-based analysis
-
-
-##  File Upload Screen
-![Upload Screen](frontend/assets/upload.png.png)
-
-
-##  Output Screen
-![Output Screen](frontend/assets/output.png.png)
-
-
-## Tech Stack
-- Python (FastAPI)
-- Pandas
-- HTML, CSS
-- JavaScript
+A **web-based application** that analyzes employee attendance and productivity using **Excel files**.  
+The system processes attendance data to calculate working days, leaves, and assigns a **productivity grade**.
 
 ---
 
-##  How to Run
+## 🚀 Features
 
+- Upload Excel-based attendance files
+- Automatic leave and attendance analysis
+- Monthly productivity summary
+- Productivity grading (A / B / C)
+- Simple and clean user interface
+- Excel-based data processing using Pandas
+
+---
+
+## 🖥️ Application Screens
+
+### File Upload Screen
+![Upload Screen](screens/upload.png)
+
+### Result / Output Screen
+![Output Screen](screens/output.png)
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Python
+- FastAPI
+- Pandas
+
+---
+
+## ⚙️ How to Run Locally
+
+### Backend Setup
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn app:app --reload
 
-## Live Demo
- https://relaxed-gumption-83969b.netlify.app
+###Frontend
+
+Open index.html in a browser
+OR
+
+Deploy the frontend using Netlify or any static hosting service
+
+### Live Prediction API
+
+🔗 https://relaxed-gumption-83969b.netlify.app
 
 ## Note
-Backend (FastAPI) runs locally.
-Frontend is deployed on Netlify for demo purposes.
 
+Backend (FastAPI) runs locally
 
+Frontend is deployed on Netlify for demonstration
 
+Frontend communicates with backend via HTTP requests
+
+## Author
+
+Radhika Vyas
+---
