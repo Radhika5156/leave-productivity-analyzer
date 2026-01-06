@@ -30,7 +30,7 @@ A **web-based application** that analyzes employee attendance data from **Excel 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - HTML  
@@ -106,5 +106,6 @@ leave-productivity-analyzer/
 ### Author
 
 Radhika Vyas
+
 
 
