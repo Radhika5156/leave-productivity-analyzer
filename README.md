@@ -1,4 +1,4 @@
-# 📊 Leave & Productivity Analyzer
+#  Leave & Productivity Analyzer
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
@@ -9,7 +9,7 @@ A **web-based application** that analyzes employee attendance data from **Excel 
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Upload Excel-based attendance files  
 - Automatic leave & working day calculation  
@@ -20,7 +20,7 @@ A **web-based application** that analyzes employee attendance data from **Excel 
 
 ---
 
-## 🧠 Workflow
+##  Workflow
 
 1. User uploads an Excel attendance file  
 2. File is sent to the FastAPI backend  
@@ -44,7 +44,7 @@ A **web-based application** that analyzes employee attendance data from **Excel 
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | File Upload | Results |
 |------------|---------|
@@ -52,7 +52,7 @@ A **web-based application** that analyzes employee attendance data from **Excel 
 
 ---
 
-## ⚙️ Installation & Run
+##  Installation & Run
 
 ### Backend
 ```bash
@@ -106,4 +106,5 @@ leave-productivity-analyzer/
 ### Author
 
 Radhika Vyas
+
 
