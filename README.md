@@ -48,7 +48,7 @@ A **web-based application** that analyzes employee attendance data from **Excel 
 
 | File Upload | Results |
 |------------|---------|
-| ![](screens/upload.png) | ![](screens/output.png) |
+| ![](frontend/assets/upload.png.png) | ![](frontend/assets/output.png.png) |
 
 ---
 
@@ -106,3 +106,4 @@ leave-productivity-analyzer/
 ### Author
 
 Radhika Vyas
+
