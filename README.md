@@ -1,75 +1,108 @@
 # 📊 Leave & Productivity Analyzer
 
-A **web-based application** that analyzes employee attendance and productivity using **Excel files**.  
-The system processes attendance data to calculate working days, leaves, and assigns a **productivity grade**.
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![Web](https://img.shields.io/badge/Web-HTML%2FCSS%2FJS-brightgreen)
+
+A **web-based application** that analyzes employee attendance data from **Excel files** to calculate leaves, working days, and generate **monthly productivity summaries with grading**.
 
 ---
 
 ## 🚀 Features
 
-- Upload Excel-based attendance files
-- Automatic leave and attendance analysis
-- Monthly productivity summary
-- Productivity grading (A / B / C)
-- Simple and clean user interface
-- Excel-based data processing using Pandas
+- Upload Excel-based attendance files  
+- Automatic leave & working day calculation  
+- Monthly productivity analysis  
+- Productivity grading (A / B / C)  
+- Fast and reliable data processing using Pandas  
+- Simple and user-friendly web interface  
 
 ---
 
-## 🖥️ Application Screens
+## 🧠 Workflow
 
-### File Upload Screen
-![Upload Screen](screens/upload.png)
-
-### Result / Output Screen
-![Output Screen](screens/output.png)
+1. User uploads an Excel attendance file  
+2. File is sent to the FastAPI backend  
+3. Pandas processes attendance and leave data  
+4. Productivity metrics and grades are calculated  
+5. Results are displayed on the web interface  
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- HTML
-- CSS
-- JavaScript
+- HTML  
+- CSS  
+- JavaScript  
 
 ### Backend
-- Python
-- FastAPI
-- Pandas
+- Python  
+- FastAPI  
+- Pandas  
 
 ---
 
-## ⚙️ How to Run Locally
+## 📸 Screenshots
 
-### Backend Setup
+| File Upload | Results |
+|------------|---------|
+| ![](screens/upload.png) | ![](screens/output.png) |
+
+---
+
+## ⚙️ Installation & Run
+
+### Backend
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn app:app --reload
 
-----
-###Frontend
+---
+
+
+
+Frontend
 
 Open index.html in a browser
 OR
 
-Deploy the frontend using Netlify or any static hosting service
+Deploy using Netlify or any static hosting service
 
-### Live Prediction API
+## Live Demo
 
-🔗 https://relaxed-gumption-83969b.netlify.app
+🔗 Frontend: https://relaxed-gumption-83969b.netlify.app
 
-## Note
+## Note: Backend (FastAPI) runs locally
 
-Backend (FastAPI) runs locally
+## Output
 
-Frontend is deployed on Netlify for demonstration
+Accurate attendance and leave calculation
 
-Frontend communicates with backend via HTTP requests
+Automated productivity grading
 
-## Author
+Clean and structured result visualization
+
+📁 Project Structure
+leave-productivity-analyzer/
+│
+├── backend/
+│   ├── app.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── screens/
+│   ├── upload.png
+│   └── output.png
+│
+└── README.md
+
+### Author
 
 Radhika Vyas
----
-
